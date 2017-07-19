@@ -1,0 +1,20 @@
+{% extends 'base.html.twig' %}
+{% form_theme edit_form 'bootstrap_3_layout.html.twig' %}
+
+{% block body %}
+    <h1>Nourriture edit</h1>
+
+    {{ form_start(edit_form) }}
+        {{ form_widget(edit_form) }}
+    <input type="submit" class="btn btn-success" value="Valider" />
+
+    {{ form_end(edit_form) }}
+
+
+            <a href="{{ path('nourriture_index') }}"><button class="btn btn-default">Retour à la liste</button></a>
+
+            {{ form_start(delete_form) }}                <input type="submit" class="btn btn-danger" value="Supprimer">
+
+    {{ form_end(delete_form) }}
+
+{% endblock %}

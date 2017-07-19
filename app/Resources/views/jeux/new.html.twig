@@ -1,0 +1,16 @@
+{% extends 'base.html.twig' %}
+{% form_theme form 'bootstrap_3_layout.html.twig' %}
+
+{% block body %}
+    <h1>Jeux creation</h1>
+
+    {{ form_start(form) }}
+        {{ form_widget(form) }}
+    <input type="submit" class="btn btn-success" value="Valider" />
+
+    {{ form_end(form) }}
+
+
+            <a href="{{ path('jeux_index') }}"><button class="btn btn-default">Retour à la liste</button></a>
+
+{% endblock %}

@@ -1,0 +1,48 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <h1>Nourriture</h1>
+
+    <table>
+        <tbody>
+            <tr>
+                <th>Id</th>
+                <td>{{ nourriture.id }}</td>
+            </tr>
+            <tr>
+                <th>Nom</th>
+                <td>{{ nourriture.nom }}</td>
+            </tr>
+            <tr>
+                <th>Entre</th>
+                <td>{{ nourriture.entre }}</td>
+            </tr>
+            <tr>
+                <th>Plat</th>
+                <td>{{ nourriture.plat }}</td>
+            </tr>
+            <tr>
+                <th>Dessert</th>
+                <td>{{ nourriture.dessert }}</td>
+            </tr>
+            <tr>
+                <th>Boisson</th>
+                <td>{{ nourriture.boisson }}</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <ul>
+        <li>
+            <a href="{{ path('nourriture_index') }}">Back to the list</a>
+        </li>
+        <li>
+            <a href="{{ path('nourriture_edit', { 'id': nourriture.id }) }}">Edit</a>
+        </li>
+        <li>
+            {{ form_start(delete_form) }}
+                <input type="submit" value="Delete">
+            {{ form_end(delete_form) }}
+        </li>
+    </ul>
+{% endblock %}

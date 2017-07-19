@@ -1,0 +1,31 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <h1>Personnes qui restent dormir</h1>
+
+    <table class="table table-bordered text-center">
+        <thead>
+            <tr>
+                <th>Nom</th>
+                <th>Nbpersonne</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for dodo in dodos %}
+            <tr>
+                <td>{{ dodo.nom }}</td>
+                <td>{{ dodo.nbpersonne }}</td>
+                <td>
+
+                            <a href="{{ path('dodo_edit', { 'id': dodo.id }) }}"><button class="btn btn-default">Modifier</button></a>
+                </td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+
+            <a href="{{ path('dodo_new') }}"><button class="btn btn-default">Ajouter une ligne</button></a>
+
+{% endblock %}

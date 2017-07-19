@@ -1,0 +1,38 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <h1>Nourritures list</h1>
+
+    <table class="table table-bordered text-center">
+        <thead>
+            <tr>
+                <th>Nom</th>
+                <th>Entre</th>
+                <th>Plat</th>
+                <th>Dessert</th>
+                <th>Boisson</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for nourriture in nourritures %}
+            <tr>
+                <td>{{ nourriture.nom }}</td>
+                <td>{{ nourriture.entre }}</td>
+                <td>{{ nourriture.plat }}</td>
+                <td>{{ nourriture.dessert }}</td>
+                <td>{{ nourriture.boisson }}</td>
+                <td>
+
+                            <a href="{{ path('nourriture_edit', { 'id': nourriture.id }) }}"><button class="btn btn-default">Modifier</button></a>
+
+                </td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+
+            <a href="{{ path('nourriture_new') }}"><button class="btn btn-default">Ajouter une ligne</button></a>
+
+{% endblock %}

@@ -1,0 +1,28 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <h1>Passagers list</h1>
+
+    <table class="table table-bordered text-center">
+        <thead>
+            <tr>
+                <th>Nom</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for passager in passagers %}
+            <tr>
+                <td>{{ passager.nom }}</td>
+                <td>
+                            <a href="{{ path('passager_edit', { 'id': passager.id }) }}"><button class="btn btn-default">Modifier</button></a>
+                </td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+
+            <a href="{{ path('passager_new') }}"><button class="btn btn-default">Ajouter une ligne</button></a>
+
+{% endblock %}

@@ -1,0 +1,30 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <h1>Liste du nombre de personne</h1>
+
+    <table class="table table-bordered text-center">
+        <thead>
+            <tr>
+                <th>Nom</th>
+                <th>Nbpersonne</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for nbPersonne in nbPersonnes %}
+            <tr>
+                <td>{{ nbPersonne.nom }}</td>
+                <td>{{ nbPersonne.nbpersonne }}</td>
+                <td>
+                    <a href="{{ path('nbpersonne_edit', { 'id': nbPersonne.id }) }}"><button class="btn btn-default">Modifier</button></a>
+                </td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+
+     <a href="{{ path('nbpersonne_new') }}"><button class="btn btn-default">Ajouter une ligne</button> </a>
+
+{% endblock %}

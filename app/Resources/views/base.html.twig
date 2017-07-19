@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>{% block title %}Journee Game{% endblock %}</title>
+        <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+        <link rel="stylesheet" href="{{ asset('css/bootstrap/bootstrap.min.css') }}" />
+
+        {% block stylesheets %}
+        {% endblock %}
+    </head>
+    <body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Journee Game</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li><a href="{{ path('nbpersonne_index') }}">Nb de personne</a></li>
+                <li><a href="{{ path('vehiculedispo_index') }}">Vehicule dispo</a></li>
+                <li><a href="{{ path('passager_index') }}">Passager</a></li>
+                <li><a href="{{ path('nourriture_index') }}">Nourriture</a></li>
+                <li><a href="{{ path('jeux_index') }}">Jeux</a></li>
+                <li><a href="{{ path('dodo_index') }}">Dodo sur place</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        {% block body %}
+
+
+        {% endblock %}
+    </div>
+
+        {% block javascripts %}
+            <script src="{{ asset('js/jquery.js') }}"></script>
+            <script src="{{ asset('js/bootstrap.js') }}"></script>
+        {% endblock %}
+    </body>
+</html>
