@@ -31,28 +31,28 @@ class nourriture
     /**
      * @var string
      *
-     * @ORM\Column(name="entree", type="text")
+     * @ORM\Column(name="entree", type="text", nullable=true)
      */
     private $entree;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="plat", type="text")
+     * @ORM\Column(name="plat", type="text",nullable=true)
      */
     private $plat;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="dessert", type="text")
+     * @ORM\Column(name="dessert", type="text",nullable=true)
      */
     private $dessert;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="boisson", type="text")
+     * @ORM\Column(name="boisson", type="text",nullable=true)
      */
     private $boisson;
 
