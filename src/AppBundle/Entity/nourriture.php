@@ -31,9 +31,9 @@ class nourriture
     /**
      * @var string
      *
-     * @ORM\Column(name="entre", type="text")
+     * @ORM\Column(name="entree", type="text")
      */
-    private $entre;
+    private $entree;
 
     /**
      * @var string
@@ -91,26 +91,26 @@ class nourriture
     }
 
     /**
-     * Set entre
+     * Set entree
      *
      * @param string $entre
      * @return nourriture
      */
-    public function setEntre($entre)
+    public function setEntree($entree)
     {
-        $this->entre = $entre;
+        $this->entree = $entree;
 
         return $this;
     }
 
     /**
-     * Get entre
+     * Get entree
      *
      * @return string 
      */
-    public function getEntre()
+    public function getEntree()
     {
-        return $this->entre;
+        return $this->entree;
     }
 
     /**

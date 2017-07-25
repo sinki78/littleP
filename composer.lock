@@ -4,6 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
+    "hash": "49b9a39b64d1f34d15c1afc527c8e703",
     "content-hash": "354eb067f29b3f836aed387962bb89a3",
     "packages": [
         {
@@ -15,8 +16,8 @@
                 "reference": "f25c8aab83e0c3e976fd7d19875f198ccf2f7535"
             },
             "dist": {
-                "type": "tar",
-                "url": "http://composer-gbis.bp2i.echonet/dist/doctrine-annotations-f25c8aab83e0c3e976fd7d19875f198ccf2f7535-zip-b3ba6f.tar",
+                "type": "zip",
+                "url": "https://api.github.com/repos/doctrine/annotations/zipball/f25c8aab83e0c3e976fd7d19875f198ccf2f7535",
                 "reference": "f25c8aab83e0c3e976fd7d19875f198ccf2f7535",
                 "shasum": ""
             },
@@ -72,7 +73,7 @@
                 "docblock",
                 "parser"
             ],
-            "time": "2015-08-31T12:32:49+00:00"
+            "time": "2015-08-31 12:32:49"
         },
         {
             "name": "doctrine/cache",
@@ -83,8 +84,8 @@
                 "reference": "47cdc76ceb95cc591d9c79a36dc3794975b5d136"
             },
             "dist": {
-                "type": "tar",
-                "url": "http://composer-gbis.bp2i.echonet/dist/doctrine-cache-47cdc76ceb95cc591d9c79a36dc3794975b5d136-zip-77f478.tar",
+                "type": "zip",
+                "url": "https://api.github.com/repos/doctrine/cache/zipball/47cdc76ceb95cc591d9c79a36dc3794975b5d136",
                 "reference": "47cdc76ceb95cc591d9c79a36dc3794975b5d136",
                 "shasum": ""
             },
@@ -142,7 +143,7 @@
                 "cache",
                 "caching"
             ],
-            "time": "2015-12-19T05:03:47+00:00"
+            "time": "2015-12-19 05:03:47"
         },
         {
             "name": "doctrine/collections",
@@ -153,8 +154,8 @@
                 "reference": "6c1e4eef75f310ea1b3e30945e9f06e652128b8a"
             },
             "dist": {
-                "type": "tar",
-                "url": "http://composer-gbis.bp2i.echonet/dist/doctrine-collections-6c1e4eef75f310ea1b3e30945e9f06e652128b8a-zip-02a8e4.tar",
+                "type": "zip",
+                "url": "https://api.github.com/repos/doctrine/collections/zipball/6c1e4eef75f310ea1b3e30945e9f06e652128b8a",
                 "reference": "6c1e4eef75f310ea1b3e30945e9f06e652128b8a",
                 "shasum": ""
             },
@@ -208,7 +209,7 @@
                 "collections",
                 "iterator"
             ],
-            "time": "2015-04-14T22:21:58+00:00"
+            "time": "2015-04-14 22:21:58"
         },
         {
             "name": "doctrine/common",
@@ -219,8 +220,8 @@
                 "reference": "10f1f19651343f87573129ca970aef1a47a6f29e"
             },
             "dist": {
-                "type": "tar",
-                "url": "http://composer-gbis.bp2i.echonet/dist/doctrine-common-10f1f19651343f87573129ca970aef1a47a6f29e-zip-5ce434.tar",
+                "type": "zip",
+                "url": "https://api.github.com/repos/doctrine/common/zipball/10f1f19651343f87573129ca970aef1a47a6f29e",
                 "reference": "10f1f19651343f87573129ca970aef1a47a6f29e",
                 "shasum": ""
             },
@@ -281,7 +282,7 @@
                 "persistence",
                 "spl"
             ],
-            "time": "2015-12-25T13:10:16+00:00"
+            "time": "2015-12-25 13:10:16"
         },
         {
             "name": "doctrine/dbal",
@@ -292,8 +293,8 @@
                 "reference": "7b9e911f9d8b30d43b96853dab26898c710d8f44"
             },
             "dist": {
-                "type": "tar",
-                "url": "http://composer-gbis.bp2i.echonet/dist/doctrine-dbal-7b9e911f9d8b30d43b96853dab26898c710d8f44-zip-48da36.tar",
+                "type": "zip",
+                "url": "https://api.github.com/repos/doctrine/dbal/zipball/7b9e911f9d8b30d43b96853dab26898c710d8f44",
                 "reference": "7b9e911f9d8b30d43b96853dab26898c710d8f44",
                 "shasum": ""
             },
@@ -352,7 +353,7 @@
                 "persistence",
                 "queryobject"
             ],
-            "time": "2017-02-08T12:53:47+00:00"
+            "time": "2017-02-08 12:53:47"
         },
         {
             "name": "doctrine/doctrine-bundle",
@@ -363,8 +364,8 @@
                 "reference": "dd40b0a7fb16658cda9def9786992b8df8a49be7"
             },
             "dist": {
-                "type": "tar",
-                "url": "http://composer-gbis.bp2i.echonet/dist/doctrine-doctrine-bundle-dd40b0a7fb16658cda9def9786992b8df8a49be7-zip-75ee0a.tar",
+                "type": "zip",
+                "url": "https://api.github.com/repos/doctrine/DoctrineBundle/zipball/dd40b0a7fb16658cda9def9786992b8df8a49be7",
                 "reference": "dd40b0a7fb16658cda9def9786992b8df8a49be7",
                 "shasum": ""
             },
@@ -433,7 +434,7 @@
                 "orm",
                 "persistence"
             ],
-            "time": "2016-08-10T15:35:22+00:00"
+            "time": "2016-08-10 15:35:22"
         },
         {
             "name": "doctrine/doctrine-cache-bundle",
@@ -444,8 +445,8 @@
                 "reference": "18c600a9b82f6454d2e81ca4957cdd56a1cf3504"
             },
             "dist": {
-                "type": "tar",
-                "url": "http://composer-gbis.bp2i.echonet/dist/doctrine-doctrine-cache-bundle-18c600a9b82f6454d2e81ca4957cdd56a1cf3504-zip-f9920f.tar",
+                "type": "zip",
+                "url": "https://api.github.com/repos/doctrine/DoctrineCacheBundle/zipball/18c600a9b82f6454d2e81ca4957cdd56a1cf3504",
                 "reference": "18c600a9b82f6454d2e81ca4957cdd56a1cf3504",
                 "shasum": ""
             },
@@ -521,7 +522,7 @@
                 "cache",
                 "caching"
             ],
-            "time": "2016-01-26T17:28:51+00:00"
+            "time": "2016-01-26 17:28:51"
         },
         {
             "name": "doctrine/inflector",
@@ -532,8 +533,8 @@
                 "reference": "90b2128806bfde671b6952ab8bea493942c1fdae"
             },
             "dist": {
-                "type": "tar",
-                "url": "http://composer-gbis.bp2i.echonet/dist/doctrine-inflector-90b2128806bfde671b6952ab8bea493942c1fdae-zip-a91357.tar",
+                "type": "zip",
+                "url": "https://api.github.com/repos/doctrine/inflector/zipball/90b2128806bfde671b6952ab8bea493942c1fdae",
                 "reference": "90b2128806bfde671b6952ab8bea493942c1fdae",
                 "shasum": ""
             },
@@ -588,7 +589,7 @@
                 "singularize",
                 "string"
             ],
-            "time": "2015-11-06T14:35:42+00:00"
+            "time": "2015-11-06 14:35:42"
         },
         {
             "name": "doctrine/lexer",
@@ -599,8 +600,8 @@
                 "reference": "83893c552fd2045dd78aef794c31e694c37c0b8c"
             },
             "dist": {
-                "type": "tar",
-                "url": "http://composer-gbis.bp2i.echonet/dist/doctrine-lexer-83893c552fd2045dd78aef794c31e694c37c0b8c-zip-53c158.tar",
+                "type": "zip",
+                "url": "https://api.github.com/repos/doctrine/lexer/zipball/83893c552fd2045dd78aef794c31e694c37c0b8c",
                 "reference": "83893c552fd2045dd78aef794c31e694c37c0b8c",
                 "shasum": ""
             },
@@ -642,7 +643,7 @@
                 "lexer",
                 "parser"
             ],
-            "time": "2014-09-09T13:34:57+00:00"
+            "time": "2014-09-09 13:34:57"
         },
         {
             "name": "doctrine/orm",
@@ -653,8 +654,8 @@
                 "reference": "5aedac1e5c5caaeac14798822c70325dc242d467"
             },
             "dist": {
-                "type": "tar",
-                "url": "http://composer-gbis.bp2i.echonet/dist/doctrine-orm-5aedac1e5c5caaeac14798822c70325dc242d467-zip-a84d35.tar",
+                "type": "zip",
+                "url": "https://api.github.com/repos/doctrine/doctrine2/zipball/5aedac1e5c5caaeac14798822c70325dc242d467",
                 "reference": "5aedac1e5c5caaeac14798822c70325dc242d467",
                 "shasum": ""
             },
@@ -715,7 +716,7 @@
                 "database",
                 "orm"
             ],
-            "time": "2015-08-31T13:19:01+00:00"
+            "time": "2015-08-31 13:19:01"
         },
         {
             "name": "incenteev/composer-parameter-handler",
@@ -726,8 +727,8 @@
                 "reference": "d7ce7f06136109e81d1cb9d57066c4d4a99cf1cc"
             },
             "dist": {
-                "type": "tar",
-                "url": "http://composer-gbis.bp2i.echonet/dist/incenteev-composer-parameter-handler-d7ce7f06136109e81d1cb9d57066c4d4a99cf1cc-zip-06d0a7.tar",
+                "type": "zip",
+                "url": "https://api.github.com/repos/Incenteev/ParameterHandler/zipball/d7ce7f06136109e81d1cb9d57066c4d4a99cf1cc",
                 "reference": "d7ce7f06136109e81d1cb9d57066c4d4a99cf1cc",
                 "shasum": ""
             },
@@ -766,7 +767,7 @@
             "keywords": [
                 "parameters management"
             ],
-            "time": "2015-11-10T17:04:01+00:00"
+            "time": "2015-11-10 17:04:01"
         },
         {
             "name": "ircmaxell/password-compat",
@@ -777,8 +778,8 @@
                 "reference": "5c5cde8822a69545767f7c7f3058cb15ff84614c"
             },
             "dist": {
-                "type": "tar",
-                "url": "http://composer-gbis.bp2i.echonet/dist/ircmaxell-password-compat-5c5cde8822a69545767f7c7f3058cb15ff84614c-zip-2be011.tar",
+                "type": "zip",
+                "url": "https://api.github.com/repos/ircmaxell/password_compat/zipball/5c5cde8822a69545767f7c7f3058cb15ff84614c",
                 "reference": "5c5cde8822a69545767f7c7f3058cb15ff84614c",
                 "shasum": ""
             },
@@ -808,7 +809,7 @@
                 "hashing",
                 "password"
             ],
-            "time": "2014-11-20T16:49:30+00:00"
+            "time": "2014-11-20 16:49:30"
         },
         {
             "name": "jdorn/sql-formatter",
@@ -819,8 +820,8 @@
                 "reference": "64990d96e0959dff8e059dfcdc1af130728d92bc"
             },
             "dist": {
-                "type": "tar",
-                "url": "http://composer-gbis.bp2i.echonet/dist/jdorn-sql-formatter-64990d96e0959dff8e059dfcdc1af130728d92bc-zip-8e3318.tar",
+                "type": "zip",
+                "url": "https://api.github.com/repos/jdorn/sql-formatter/zipball/64990d96e0959dff8e059dfcdc1af130728d92bc",
                 "reference": "64990d96e0959dff8e059dfcdc1af130728d92bc",
                 "shasum": ""
             },
@@ -858,7 +859,7 @@
                 "highlight",
                 "sql"
             ],
-            "time": "2014-01-12T16:20:24+00:00"
+            "time": "2014-01-12 16:20:24"
         },
         {
             "name": "monolog/monolog",
@@ -869,8 +870,8 @@
                 "reference": "fd8c787753b3a2ad11bc60c063cff1358a32a3b4"
             },
             "dist": {
-                "type": "tar",
-                "url": "http://composer-gbis.bp2i.echonet/dist/monolog-monolog-fd8c787753b3a2ad11bc60c063cff1358a32a3b4-zip-88ebdd.tar",
+                "type": "zip",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/fd8c787753b3a2ad11bc60c063cff1358a32a3b4",
                 "reference": "fd8c787753b3a2ad11bc60c063cff1358a32a3b4",
                 "shasum": ""
             },
@@ -936,7 +937,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2017-06-19T01:22:40+00:00"
+            "time": "2017-06-19 01:22:40"
         },
         {
             "name": "paragonie/random_compat",
@@ -947,8 +948,8 @@
                 "reference": "634bae8e911eefa89c1abfbf1b66da679ac8f54d"
             },
             "dist": {
-                "type": "tar",
-                "url": "http://composer-gbis.bp2i.echonet/dist/paragonie-random_compat-634bae8e911eefa89c1abfbf1b66da679ac8f54d-zip-1d5453.tar",
+                "type": "zip",
+                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/634bae8e911eefa89c1abfbf1b66da679ac8f54d",
                 "reference": "634bae8e911eefa89c1abfbf1b66da679ac8f54d",
                 "shasum": ""
             },
@@ -984,7 +985,7 @@
                 "pseudorandom",
                 "random"
             ],
-            "time": "2017-03-13T16:27:32+00:00"
+            "time": "2017-03-13 16:27:32"
         },
         {
             "name": "psr/log",
@@ -995,8 +996,8 @@
                 "reference": "4ebe3a8bf773a19edfe0a84b6585ba3d401b724d"
             },
             "dist": {
-                "type": "tar",
-                "url": "http://composer-gbis.bp2i.echonet/dist/psr-log-4ebe3a8bf773a19edfe0a84b6585ba3d401b724d-zip-6434e8.tar",
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/4ebe3a8bf773a19edfe0a84b6585ba3d401b724d",
                 "reference": "4ebe3a8bf773a19edfe0a84b6585ba3d401b724d",
                 "shasum": ""
             },
@@ -1031,7 +1032,7 @@
                 "psr",
                 "psr-3"
             ],
-            "time": "2016-10-10T12:19:37+00:00"
+            "time": "2016-10-10 12:19:37"
         },
         {
             "name": "sensio/distribution-bundle",
@@ -1043,8 +1044,8 @@
                 "reference": "95469374e703f01b8e760023ac4f2f64da6a1dd9"
             },
             "dist": {
-                "type": "tar",
-                "url": "http://composer-gbis.bp2i.echonet/dist/sensio-distribution-bundle-95469374e703f01b8e760023ac4f2f64da6a1dd9-zip-47d8e5.tar",
+                "type": "zip",
+                "url": "https://api.github.com/repos/sensiolabs/SensioDistributionBundle/zipball/95469374e703f01b8e760023ac4f2f64da6a1dd9",
                 "reference": "95469374e703f01b8e760023ac4f2f64da6a1dd9",
                 "shasum": ""
             },
@@ -1091,7 +1092,7 @@
                 "configuration",
                 "distribution"
             ],
-            "time": "2017-01-04T13:34:44+00:00"
+            "time": "2017-01-04 13:34:44"
         },
         {
             "name": "sensio/framework-extra-bundle",
@@ -1102,8 +1103,8 @@
                 "reference": "6d6cbe971554f0a2cc84965850481eb04a2a0059"
             },
             "dist": {
-                "type": "tar",
-                "url": "http://composer-gbis.bp2i.echonet/dist/sensio-framework-extra-bundle-6d6cbe971554f0a2cc84965850481eb04a2a0059-zip-7f4973.tar",
+                "type": "zip",
+                "url": "https://api.github.com/repos/sensiolabs/SensioFrameworkExtraBundle/zipball/6d6cbe971554f0a2cc84965850481eb04a2a0059",
                 "reference": "6d6cbe971554f0a2cc84965850481eb04a2a0059",
                 "shasum": ""
             },
@@ -1161,7 +1162,7 @@
                 "annotations",
                 "controllers"
             ],
-            "time": "2017-05-11T17:01:57+00:00"
+            "time": "2017-05-11 17:01:57"
         },
         {
             "name": "sensiolabs/security-checker",
@@ -1172,8 +1173,8 @@
                 "reference": "59a6a299e2f5612dc8692d40e84373703a5df1b5"
             },
             "dist": {
-                "type": "tar",
-                "url": "http://composer-gbis.bp2i.echonet/dist/sensiolabs-security-checker-59a6a299e2f5612dc8692d40e84373703a5df1b5-zip-bf1bc7.tar",
+                "type": "zip",
+                "url": "https://api.github.com/repos/sensiolabs/security-checker/zipball/59a6a299e2f5612dc8692d40e84373703a5df1b5",
                 "reference": "59a6a299e2f5612dc8692d40e84373703a5df1b5",
                 "shasum": ""
             },
@@ -1205,7 +1206,7 @@
                 }
             ],
             "description": "A security checker for your composer.lock",
-            "time": "2017-03-29T09:29:53+00:00"
+            "time": "2017-03-29 09:29:53"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -1216,8 +1217,8 @@
                 "reference": "9a06dc570a0367850280eefd3f1dc2da45aef517"
             },
             "dist": {
-                "type": "tar",
-                "url": "http://composer-gbis.bp2i.echonet/dist/swiftmailer-swiftmailer-9a06dc570a0367850280eefd3f1dc2da45aef517-zip-78156e.tar",
+                "type": "zip",
+                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/9a06dc570a0367850280eefd3f1dc2da45aef517",
                 "reference": "9a06dc570a0367850280eefd3f1dc2da45aef517",
                 "shasum": ""
             },
@@ -1259,7 +1260,7 @@
                 "mail",
                 "mailer"
             ],
-            "time": "2017-05-01T15:54:03+00:00"
+            "time": "2017-05-01 15:54:03"
         },
         {
             "name": "symfony/monolog-bundle",
@@ -1270,8 +1271,8 @@
                 "reference": "6f96c7dbb6b2ef70b307a1a6f897153cbca3da47"
             },
             "dist": {
-                "type": "tar",
-                "url": "http://composer-gbis.bp2i.echonet/dist/symfony-monolog-bundle-6f96c7dbb6b2ef70b307a1a6f897153cbca3da47-zip-b9767d.tar",
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/monolog-bundle/zipball/6f96c7dbb6b2ef70b307a1a6f897153cbca3da47",
                 "reference": "6f96c7dbb6b2ef70b307a1a6f897153cbca3da47",
                 "shasum": ""
             },
@@ -1319,7 +1320,7 @@
                 "log",
                 "logging"
             ],
-            "time": "2017-03-26T11:55:59+00:00"
+            "time": "2017-03-26 11:55:59"
         },
         {
             "name": "symfony/polyfill-apcu",
@@ -1330,8 +1331,8 @@
                 "reference": "2e7965b8cdfbba50d0092d3f6dca97dddec409e2"
             },
             "dist": {
-                "type": "tar",
-                "url": "http://composer-gbis.bp2i.echonet/dist/symfony-polyfill-apcu-2e7965b8cdfbba50d0092d3f6dca97dddec409e2-zip-0fba9e.tar",
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-apcu/zipball/2e7965b8cdfbba50d0092d3f6dca97dddec409e2",
                 "reference": "2e7965b8cdfbba50d0092d3f6dca97dddec409e2",
                 "shasum": ""
             },
@@ -1372,7 +1373,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2017-06-09T08:25:21+00:00"
+            "time": "2017-06-09 08:25:21"
         },
         {
             "name": "symfony/polyfill-intl-icu",
@@ -1383,8 +1384,8 @@
                 "reference": "3191cbe0ce64987bd382daf6724af31c53daae01"
             },
             "dist": {
-                "type": "tar",
-                "url": "http://composer-gbis.bp2i.echonet/dist/symfony-polyfill-intl-icu-3191cbe0ce64987bd382daf6724af31c53daae01-zip-e597fa.tar",
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-intl-icu/zipball/3191cbe0ce64987bd382daf6724af31c53daae01",
                 "reference": "3191cbe0ce64987bd382daf6724af31c53daae01",
                 "shasum": ""
             },
@@ -1430,7 +1431,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2017-06-09T08:25:21+00:00"
+            "time": "2017-06-09 08:25:21"
         },
         {
             "name": "symfony/polyfill-mbstring",
@@ -1441,8 +1442,8 @@
                 "reference": "f29dca382a6485c3cbe6379f0c61230167681937"
             },
             "dist": {
-                "type": "tar",
-                "url": "http://composer-gbis.bp2i.echonet/dist/symfony-polyfill-mbstring-f29dca382a6485c3cbe6379f0c61230167681937-zip-413502.tar",
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/f29dca382a6485c3cbe6379f0c61230167681937",
                 "reference": "f29dca382a6485c3cbe6379f0c61230167681937",
                 "shasum": ""
             },
@@ -1489,7 +1490,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2017-06-09T14:24:12+00:00"
+            "time": "2017-06-09 14:24:12"
         },
         {
             "name": "symfony/polyfill-php54",
@@ -1500,8 +1501,8 @@
                 "reference": "7dd1a8b9f0442273fdfeb1c4f5eaff6890a82789"
             },
             "dist": {
-                "type": "tar",
-                "url": "http://composer-gbis.bp2i.echonet/dist/symfony-polyfill-php54-7dd1a8b9f0442273fdfeb1c4f5eaff6890a82789-zip-053281.tar",
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-php54/zipball/7dd1a8b9f0442273fdfeb1c4f5eaff6890a82789",
                 "reference": "7dd1a8b9f0442273fdfeb1c4f5eaff6890a82789",
                 "shasum": ""
             },
@@ -1547,7 +1548,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2017-06-09T08:25:21+00:00"
+            "time": "2017-06-09 08:25:21"
         },
         {
             "name": "symfony/polyfill-php55",
@@ -1558,8 +1559,8 @@
                 "reference": "94566239a7720cde0820f15f0cc348ddb51ba51d"
             },
             "dist": {
-                "type": "tar",
-                "url": "http://composer-gbis.bp2i.echonet/dist/symfony-polyfill-php55-94566239a7720cde0820f15f0cc348ddb51ba51d-zip-a4e8bf.tar",
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-php55/zipball/94566239a7720cde0820f15f0cc348ddb51ba51d",
                 "reference": "94566239a7720cde0820f15f0cc348ddb51ba51d",
                 "shasum": ""
             },
@@ -1603,7 +1604,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2017-06-09T08:25:21+00:00"
+            "time": "2017-06-09 08:25:21"
         },
         {
             "name": "symfony/polyfill-php56",
@@ -1614,8 +1615,8 @@
                 "reference": "bc0b7d6cb36b10cfabb170a3e359944a95174929"
             },
             "dist": {
-                "type": "tar",
-                "url": "http://composer-gbis.bp2i.echonet/dist/symfony-polyfill-php56-bc0b7d6cb36b10cfabb170a3e359944a95174929-zip-10c187.tar",
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-php56/zipball/bc0b7d6cb36b10cfabb170a3e359944a95174929",
                 "reference": "bc0b7d6cb36b10cfabb170a3e359944a95174929",
                 "shasum": ""
             },
@@ -1659,7 +1660,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2017-06-09T08:25:21+00:00"
+            "time": "2017-06-09 08:25:21"
         },
         {
             "name": "symfony/polyfill-php70",
@@ -1670,8 +1671,8 @@
                 "reference": "032fd647d5c11a9ceab8ee8747e13b5448e93874"
             },
             "dist": {
-                "type": "tar",
-                "url": "http://composer-gbis.bp2i.echonet/dist/symfony-polyfill-php70-032fd647d5c11a9ceab8ee8747e13b5448e93874-zip-a8d5c1.tar",
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-php70/zipball/032fd647d5c11a9ceab8ee8747e13b5448e93874",
                 "reference": "032fd647d5c11a9ceab8ee8747e13b5448e93874",
                 "shasum": ""
             },
@@ -1718,7 +1719,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2017-06-09T14:24:12+00:00"
+            "time": "2017-06-09 14:24:12"
         },
         {
             "name": "symfony/polyfill-util",
@@ -1729,8 +1730,8 @@
                 "reference": "ebccbde4aad410f6438d86d7d261c6b4d2b9a51d"
             },
             "dist": {
-                "type": "tar",
-                "url": "http://composer-gbis.bp2i.echonet/dist/symfony-polyfill-util-ebccbde4aad410f6438d86d7d261c6b4d2b9a51d-zip-24a18d.tar",
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-util/zipball/ebccbde4aad410f6438d86d7d261c6b4d2b9a51d",
                 "reference": "ebccbde4aad410f6438d86d7d261c6b4d2b9a51d",
                 "shasum": ""
             },
@@ -1770,7 +1771,7 @@
                 "polyfill",
                 "shim"
             ],
-            "time": "2017-06-09T08:25:21+00:00"
+            "time": "2017-06-09 08:25:21"
         },
         {
             "name": "symfony/security-acl",
@@ -1781,8 +1782,8 @@
                 "reference": "4a3f7327ad215242c78f6564ad4ea6d2db1b8347"
             },
             "dist": {
-                "type": "tar",
-                "url": "http://composer-gbis.bp2i.echonet/dist/symfony-security-acl-4a3f7327ad215242c78f6564ad4ea6d2db1b8347-zip-cc7659.tar",
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/security-acl/zipball/4a3f7327ad215242c78f6564ad4ea6d2db1b8347",
                 "reference": "4a3f7327ad215242c78f6564ad4ea6d2db1b8347",
                 "shasum": ""
             },
@@ -1831,7 +1832,7 @@
             ],
             "description": "Symfony Security Component - ACL (Access Control List)",
             "homepage": "https://symfony.com",
-            "time": "2015-12-28T09:39:09+00:00"
+            "time": "2015-12-28 09:39:09"
         },
         {
             "name": "symfony/swiftmailer-bundle",
@@ -1842,8 +1843,8 @@
                 "reference": "deabc81120c2086571f7c4484ab785c5e1b84f75"
             },
             "dist": {
-                "type": "tar",
-                "url": "http://composer-gbis.bp2i.echonet/dist/symfony-swiftmailer-bundle-deabc81120c2086571f7c4484ab785c5e1b84f75-zip-57f446.tar",
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/swiftmailer-bundle/zipball/deabc81120c2086571f7c4484ab785c5e1b84f75",
                 "reference": "deabc81120c2086571f7c4484ab785c5e1b84f75",
                 "shasum": ""
             },
@@ -1890,24 +1891,25 @@
             ],
             "description": "Symfony SwiftmailerBundle",
             "homepage": "http://symfony.com",
-            "time": "2017-05-22T04:58:24+00:00"
+            "time": "2017-05-22 04:58:24"
         },
         {
             "name": "symfony/symfony",
-            "version": "v2.8.24",
+            "version": "v2.8.25",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/symfony.git",
-                "reference": "0ab3693b1154b1b166e98981ab3755636a5ae0e3"
+                "reference": "c2452af5659d0492a43268c389bb211295c5e4c9"
             },
             "dist": {
-                "type": "tar",
-                "url": "http://composer-gbis.bp2i.echonet/dist/symfony-symfony-0ab3693b1154b1b166e98981ab3755636a5ae0e3-zip-875ad1.tar",
-                "reference": "0ab3693b1154b1b166e98981ab3755636a5ae0e3",
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/symfony/zipball/c2452af5659d0492a43268c389bb211295c5e4c9",
+                "reference": "c2452af5659d0492a43268c389bb211295c5e4c9",
                 "shasum": ""
             },
             "require": {
                 "doctrine/common": "~2.4",
+                "ext-xml": "*",
                 "php": ">=5.3.9",
                 "psr/log": "~1.0",
                 "symfony/polyfill-apcu": "~1.1",
@@ -2027,7 +2029,7 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2017-07-05T08:53:15+00:00"
+            "time": "2017-07-17 18:00:19"
         },
         {
             "name": "twig/twig",
@@ -2038,8 +2040,8 @@
                 "reference": "f878bab48edb66ad9c6ed626bf817f60c6c096ee"
             },
             "dist": {
-                "type": "tar",
-                "url": "http://composer-gbis.bp2i.echonet/dist/twig-twig-f878bab48edb66ad9c6ed626bf817f60c6c096ee-zip-918766.tar",
+                "type": "zip",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/f878bab48edb66ad9c6ed626bf817f60c6c096ee",
                 "reference": "f878bab48edb66ad9c6ed626bf817f60c6c096ee",
                 "shasum": ""
             },
@@ -2092,22 +2094,22 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2017-07-04T13:19:31+00:00"
+            "time": "2017-07-04 13:19:31"
         }
     ],
     "packages-dev": [
         {
             "name": "sensio/generator-bundle",
-            "version": "v3.1.5",
+            "version": "v3.1.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sensiolabs/SensioGeneratorBundle.git",
-                "reference": "535417a99ac1b387df3bfbc0c060122c24665b78"
+                "reference": "128bc5dabc91ca40b7445f094968dd70ccd58305"
             },
             "dist": {
-                "type": "tar",
-                "url": "http://composer-gbis.bp2i.echonet/dist/sensio-generator-bundle-535417a99ac1b387df3bfbc0c060122c24665b78-zip-0df3ed.tar",
-                "reference": "535417a99ac1b387df3bfbc0c060122c24665b78",
+                "type": "zip",
+                "url": "https://api.github.com/repos/sensiolabs/SensioGeneratorBundle/zipball/128bc5dabc91ca40b7445f094968dd70ccd58305",
+                "reference": "128bc5dabc91ca40b7445f094968dd70ccd58305",
                 "shasum": ""
             },
             "require": {
@@ -2148,19 +2150,19 @@
                 }
             ],
             "description": "This bundle generates code for you",
-            "time": "2017-07-12T17:28:00+00:00"
+            "time": "2017-07-18 07:57:44"
         },
         {
             "name": "symfony/phpunit-bridge",
-            "version": "v2.8.24",
+            "version": "v2.8.25",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/phpunit-bridge.git",
                 "reference": "34bfa4fe0439440323aab0982a77246b6b6dfd83"
             },
             "dist": {
-                "type": "tar",
-                "url": "http://composer-gbis.bp2i.echonet/dist/symfony-phpunit-bridge-34bfa4fe0439440323aab0982a77246b6b6dfd83-zip-dbf916.tar",
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/phpunit-bridge/zipball/34bfa4fe0439440323aab0982a77246b6b6dfd83",
                 "reference": "34bfa4fe0439440323aab0982a77246b6b6dfd83",
                 "shasum": ""
             },
@@ -2206,7 +2208,7 @@
             ],
             "description": "Symfony PHPUnit Bridge",
             "homepage": "https://symfony.com",
-            "time": "2017-05-21T09:46:38+00:00"
+            "time": "2017-05-21 09:46:38"
         }
     ],
     "aliases": [],
